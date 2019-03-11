@@ -17,9 +17,10 @@ katz_deli=[]
 end
 
  def take_a_number (deli, name)
-  deli.push(name)
-  pos =  deli.find_index (name)
-  puts "Welcome, #{name}. You are number #{pos +1} in line."
+   puts "You are number #
+  # deli.push(name)
+  # pos =  deli.find_index (name)
+  # puts "Welcome, #{name}. You are number #{pos +1} in line."
 end
 
 
