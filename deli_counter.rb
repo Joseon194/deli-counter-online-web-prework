@@ -26,10 +26,10 @@ end
 
  def now_serving (deli)
   while deli.length > 0
-    puts "There is nobody waiting to be served!"
+
 
      puts "Currently serving #{deli.first}."
      deli.shift
-
+    puts "There is nobody waiting to be served!"
   end
 end 
