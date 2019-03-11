@@ -30,6 +30,7 @@ end
 
      puts "Currently serving #{deli.first}."
      deli.shift
-    puts "There is nobody waiting to be served!"
+
   end
-end 
+    puts "There is nobody waiting to be served!"
+    end 
